@@ -1,0 +1,54 @@
+<!-- https://scrimba.com/learn/cssgrid/intro-to-the-css-grid-course-cg9PpTb -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <title>Document</title>
+    <style>
+        body {
+            height: 1000vh;
+            width: 100%;
+            background-color: rgba(255, 255, 0, 0.81);
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 100px auto 100px;
+            grid-template-rows: 50px 50px;
+            grid-gap: 3px;
+            color: black;
+            font-size: 18px;
+        }
+
+        .container div:nth-child(even) {
+            background: rgb(224, 122, 122);
+            height: 50px;
+            padding: 10px;
+        }
+
+        .container div:nth-child(odd) {
+            background: rgb(155, 218, 218);
+            height: 50px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Why learn CSS Grid layout?</h1>
+    <ul class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </ul>
+</body>
+
+</html>
