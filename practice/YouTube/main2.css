@@ -2,7 +2,7 @@
     --clr-primary-200: #f3eed9;
     --clr-primary-400: red;
 
-    --clr-neutral-100: #ffffff;
+    --clr-neutral-100: #fff;
     --clr-neutral-900: #222c2a;
 
     --ff-primary: 'Roboto', sans-serif;
@@ -91,7 +91,7 @@ header, section {
 }
 
 .bg-dark {
-    color: var(--ckr-neutral-100);
+    color: var(--clr-neutral-100);
     background-color: var(--clr-neutral-900);
 }
 

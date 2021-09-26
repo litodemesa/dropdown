@@ -1,0 +1,15 @@
+.cblock {
+    border: 1px solid black;
+}
+
+.cinline {
+    border: 2px solid blue;
+}
+.spanblock {
+    display: block;
+    border: 2px solid black;
+}
+.spaninline {
+    display: inline;
+    border: 1px solid black;
+}
